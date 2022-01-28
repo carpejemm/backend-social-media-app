@@ -1,0 +1,28 @@
+{
+  "name": "backend-social-media-app",
+  "version": "1.0.0",
+  "description": "Backend Technical Exam - Social Media App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carpejemm/backend-social-media-app.git"
+  },
+  "author": "Jem Laguda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carpejemm/backend-social-media-app/issues"
+  },
+  "homepage": "https://github.com/carpejemm/backend-social-media-app#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0"
+  }
+}
