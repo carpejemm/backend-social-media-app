@@ -7,10 +7,6 @@ const UserSchema = new Schema({
     required: true,
     trim: true
   },
-  // username: {
-  //   type: String,
-  //   required: true
-  // },
   email: {
     type: String,
     unique: true,
@@ -28,6 +24,7 @@ const UserSchema = new Schema({
     type: String,
     default: 'https://cdn.onlinewebfonts.com/svg/img_568656.png'
   },
+  friends: [{ type: Schema.Types.ObjectId, ref: 'User' }],
   date: {
     type: Date,
     default: Date.now
